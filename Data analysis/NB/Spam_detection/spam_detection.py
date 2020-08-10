@@ -34,6 +34,8 @@ def spam_detection(random_state=0, fraction=1.0):
 def main():
     accuracy, total, misclassified = spam_detection()
     print("Accuracy score:", accuracy)
+    print("Size of sample:", total)
+    print("Misclassified sample points:", misclassified)
  
 if __name__ == "__main__":
     main()
